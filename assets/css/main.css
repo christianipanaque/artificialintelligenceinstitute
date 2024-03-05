@@ -411,7 +411,8 @@ START: Button CSS
   color: var(--tj-color-common-white);
   font-weight: var(--tj-fw-sbold);
   font-size: 15px;
-  padding: 15px 30px;
+  padding: 22px 30px;
+  width: 160px;
   border-radius: 58px;
   overflow: hidden;
   font-family: var(--tj-ff-body);
@@ -1210,7 +1211,7 @@ START: Hero CSS
   margin-bottom: 45px;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 25px;
 }
 .hero-left-content .hero-input-form-two .hero-input {
   width: 485px;
