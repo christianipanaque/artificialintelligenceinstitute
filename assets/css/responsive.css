@@ -1338,7 +1338,13 @@
     }
     .hero-left-content .hero-input-form-two .hero-input {
         margin-bottom: 25px;
-        width: 300px;
+        width: 100%;
+    }
+    .hero-left-content .hero-input-form-two .hero-input input[type=email] {
+        text-align: center;
+    }
+    .hero-left-content .hero-input-form-two .tj-hero-button .tj-primary-black-btn {
+        width: 100%;
     }
     .tj-counter-section .tj-circle-box4 {
         display: none;
