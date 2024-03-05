@@ -53,6 +53,7 @@ START: Theme Default CSS
   /**
      @Color Declaration
    */
+  --tj-color-body-bg: #d8d8d8;
   --tj-color-common-white: #ffffff;
   --tj-color-common-black: #000000;
   --tj-color-common-black-2: #030303;
@@ -103,6 +104,7 @@ body {
   color: var(--tj-color-text-body);
   line-height: 1.5;
   overflow-x: hidden;
+  background-color: var(--tj-color-body-bg);
 }
 
 a {
