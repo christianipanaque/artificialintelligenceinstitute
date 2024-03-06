@@ -39,6 +39,21 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <!-- Responsive css -->
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-16480973349"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-16480973349");
+    </script>
+
     <!-- Event snippet for AII Submit Email conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
@@ -115,7 +130,11 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
                       />
                     </div>
                     <div class="tj-hero-button">
-                      <button class="tj-primary-btn" type="submit" onclick="gtag_report_conversion()">
+                      <button
+                        class="tj-primary-btn"
+                        type="submit"
+                        onclick="gtag_report_conversion()"
+                      >
                         Begin Now
                       </button>
                     </div>
