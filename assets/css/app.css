@@ -13,9 +13,9 @@
   --cta-font-color: #fff;
   --cta-font-weight: 800;
 
-  --body-font-weight: 300;
+  --body-font-weight: 400;
   --h1-font-weight: 800;
-  --h1-font-size: 5rem;
+  --h1-font-size: 4rem;
   --span-light-bold: bold;
   --span-heavy-bold: 800;
 }
@@ -124,6 +124,7 @@ h1 {
 h2,
 p {
   line-height: 1.3;
+  font-weight: var(--body-font-weight);
 }
 
 .highlight-cta-color {
